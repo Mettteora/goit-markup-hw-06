@@ -419,7 +419,7 @@ display: flex;
 }
 
 .team-icon{
-
+      transition: color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
 }
 
 .team-link{
@@ -429,6 +429,7 @@ display: flex;
     display: flex;
     align-items: center;
     justify-content: center;
+      transition: color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
 }
 
 .team-link:hover{
@@ -439,13 +440,13 @@ display: flex;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
+  
 }
 
 .team-link:hover .team-icon{
     fill: var(--main-color-);
     border-color: var(--main-color-blue-);
-    transition: color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
+   
 }
 
 .team-link:focus{
