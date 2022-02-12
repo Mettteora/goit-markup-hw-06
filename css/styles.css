@@ -370,7 +370,7 @@ justify-content: center;
 
 }
 .team-item {
-     background: var(--main-color-);
+    background: var(--main-color-);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     
@@ -476,7 +476,8 @@ display: flex;
 .clients-link:focus .clients-icon{
 border-color: #2196F3;
 fill: #2196F3;  
-transition: color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
+transition: fill 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
+
 }
 
 .clients-link:hover{
@@ -500,15 +501,17 @@ margin-right: 30px;
 .clients-link {
      border: 1px solid #AFB1B8;
      border-radius: 5%;
-     
+     transition: color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
      width: 100%;
      height: 100%;
      display: flex;
      align-items: center;
      justify-content: center;
+     transition: border-color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
 }
 .clients-icon { 
     fill: #afb1b8;
+    transition: fill 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
     
 }
 
@@ -607,6 +610,7 @@ color: #FFFFFF;
 .gallary-item {
     margin-right: 30px;
     margin-bottom: 30px;
+    background-color: #FFFFFF;
 }
 
 .gallary-link:hover .gallary-top-text,
@@ -628,14 +632,13 @@ display: flex;
 
 
 .title-gallary {
-
-
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
 }
+
 .gallary-text { 
 font-weight: normal;
 font-size: 16px;
@@ -645,14 +648,10 @@ letter-spacing: 0.03em;
 
 .address{
     font-style: normal;
-    
-    
 }
 
 .address-link{
     color: var(--main-color-);
-    
-    
 }
 
 .clinets-box{
@@ -744,9 +743,12 @@ letter-spacing: 0.03em;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
+    transition: color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
 }
 .footer-icon {
     fill: var(--main-color-);
+   
 }
 
 .footer-title{
@@ -764,7 +766,7 @@ color: #FFFFFF;;
 .footer-link:hover,
 .footer-link:focus{
    background-color: var(--main-color-blue-); 
-   transition: color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
+   transition: background-color 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
 }
 
 
