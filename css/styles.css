@@ -51,7 +51,7 @@ button{
     border: 0;
 }
 
-.hid
+
 .container{
   width: 1200px;
   padding-left: 15px;
@@ -881,27 +881,25 @@ color: #FFFFFF;
     background-color: var(--main-color-blue-);
     color: var(--main-color-);
     font-weight: bold;
-font-size: 16px;
-line-height: 30px;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-border-radius: 4px;
-margin-left: 12px;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+     display: inline-flex;
+     justify-content: center;
+
 }
 
 .sub-icon{
     align-items: center;
     justify-content: center;
-    /* margin-top: 13px;
-    margin-right: 28px;
     margin-left: 10px;
-    margin-bottom: 13px; */
 }
 
 .modal-icon-box{
     position: relative;
-    margin-bottom: 10px;
 }
 
 .modal-icon{
@@ -914,6 +912,7 @@ margin-left: 12px;
 
 .form-field{
     position: relative;
+    margin-bottom: 10px;
 }
 
 .modal-title{
@@ -956,26 +955,28 @@ color: #212121;
 }
 .modal-label{
     font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 14px;
-letter-spacing: 0.01em;
-color: #757575;
-display: block;
-padding-bottom: 4px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #757575;
+    display: block;
+    margin-bottom: 4px;
 }
 
 .accept-text{
     font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
-color: #757575;
-display: flex;
-align-items: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .accept-text::before{
@@ -989,17 +990,20 @@ align-items: center;
 }
 
 .accept-btn:checked + .accept-text::before{
-background-image: url(/images/icon-check.svg);
- border: none;
+    background-image: url(../images/icon-check.svg);
+    border: none;
+ 
 }
 
 .agreement{
     text-decoration: underline;
-    color: #2196F3;;
+    color: #2196F3;
+    margin-left: 5px;
    
 }
 
 .user-text{
+    display: block;
     width: 448px;
     height: 120px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -1008,46 +1012,48 @@ background-image: url(/images/icon-check.svg);
     padding-left: 10px;
     padding-top: 12px;
     font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 14px;
-letter-spacing: 0.01em;
-resize: none;
-outline: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    resize: none;
+    outline: none;
 }
 
 .btn-modal{
-width: 200px;
-height: 50px;
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
-line-height: 30px;
-display: flex;
-align-items: center;
-text-align: center;
-justify-content: center;
-letter-spacing: 0.06em; 
-color: #FFFFFF;
-background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-margin-top: 30px;
-margin-left: 120px
+    width: 200px;
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.06em; 
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-left: 120px;
+   
+    
 }
 
 
 .sub-title{
     font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 0.8;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #FFFFFF;
-padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
 }
 
 .sub-box-flex{
@@ -1056,9 +1062,10 @@ padding-bottom: 20px;
 }
 .test-box{
     display: flex;
+    margin-left: 12px;
 }
 
-.modal-form{
+.modal-checkbox{
     margin-top: 20px;
     
 }
